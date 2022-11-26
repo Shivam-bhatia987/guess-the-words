@@ -1,0 +1,67 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: rgba(0, 255, 255, 0.196);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.inSide_body {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+}
+.inSide_body h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+}
+.inSide_body h2 {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 25px;
+  /* border-bottom: 1px solid #ccc; */
+  padding: 10px;
+}
+.inSide_body h2 {
+  /* text-align: center; */
+  font-family: sans-serif;
+  /* font-size: 25px; */
+  /* border-bottom: 1px solid #ccc; */
+  padding: 10px;
+  letter-spacing: 10px;
+}
+.inSide_body input {
+  width: 95%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+.inSide_body input:focus {
+  outline: none;
+}
+.inSide_body button {
+  width: 49%;
+  padding: 13px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+}
+.inSide_body .refButtn1 {
+  background-color: rgba(204, 145, 145, 0.849);
+  color: rgba(28, 26, 26, 0.991);
+  border: none;
+}
+.inSide_body .chkButtn1 {
+  background-color: bisque;
+  color: rgba(28, 26, 26, 0.991);
+  border: none;
+}
