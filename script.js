@@ -81,15 +81,12 @@ document.addEventListener("visibilitychange", (e) => {
   if (document.visibilityState === "hidden") {
     const leaveDate = new Date();
     interval = setInterval(() => {
-      notif = new Notification(
-        `<h3>Alert-Your Session has been recorded.<h3>`,
-        {
-          body: `You have been gone for ${Math.round(
-            (new Date() - leaveDate) / 1000
-          )} seconds`,
-          tag: "Come Back",
-        }
-      );
+      notif = new Notification(`Alert-Your Session has been recorded.`, {
+        body: `You have been gone for ${Math.round(
+          (new Date() - leaveDate) / 1000
+        )} seconds`,
+        tag: "Come Back",
+      });
     }, 100);
   } else {
     if (interval) clearInterval(interval);
