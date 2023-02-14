@@ -1,12 +1,12 @@
 body {
   padding: 0px;
   margin: 0px;
-  /* background-color: #cbb295c2; */
-  background-image: url("Seamless-Polygon-Backgrounds-Vol.jpg");
+  /* background-color: rgba(0, 255, 255, 0.196); */
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background-image: url("Seamless-Polygon-Backgrounds-Vol.jpg");
 }
 .inSide_body {
   background-color: #fff;
