@@ -1,7 +1,8 @@
 body {
   padding: 0px;
   margin: 0px;
-  background-color: rgba(0, 255, 255, 0.196);
+  /* background-color: #cbb295c2; */
+  background-image: url("Seamless-Polygon-Backgrounds-Vol.jpg");
   display: flex;
   justify-content: center;
   align-items: center;
